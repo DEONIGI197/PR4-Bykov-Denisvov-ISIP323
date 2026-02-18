@@ -42,7 +42,7 @@ a = { (f(x) + y)² - √(f(x)·y), xy > 0
 **Функция:**
 y = (10⁻²·b·c)/x + cos(√(a³·x))
 **Скриншот функции:**
-![Формула 3](Praktika4_Bykov_Denisov/моя_функция_1.png)
+![Формула 3](Praktika4_Bykov_Denisov/моя_функция_3.png)
 
 ## Стек технологий
 
@@ -78,6 +78,7 @@ Praktika4_Bykov_Denisov/
 ## Ссылка на репозиторий
 
 [GITHUB](https://github.com/DEONIGI197/PR4-Bykov-Denisvov-ISIP323)
+
 
 
 
