@@ -21,7 +21,7 @@ namespace Praktika4_Bykov_Denisov
 
         private void InitializePlot()
         {
-            // Создаём модель графика
+
             PlotModel = new PlotModel
             {
                 Title = "График функции y = (10⁻²·b·c)/x + cos(√(a³·x))",
@@ -47,7 +47,6 @@ namespace Praktika4_Bykov_Denisov
                 MinorGridlineColor = OxyColor.FromRgb(240, 240, 240)
             });
 
-            // Ось Y
             PlotModel.Axes.Add(new LinearAxis
             {
                 Position = AxisPosition.Left,
@@ -62,11 +61,10 @@ namespace Praktika4_Bykov_Denisov
                 MinorGridlineColor = OxyColor.FromRgb(240, 240, 240)
             });
 
-            // Создаём серию для графика
             var series = new LineSeries
             {
                 Title = "y(x)",
-                Color = OxyColor.FromRgb(0, 122, 204), // Синий цвет
+                Color = OxyColor.FromRgb(0, 122, 204),
                 StrokeThickness = 2,
                 MarkerType = MarkerType.None,
                 LineStyle = LineStyle.Solid,
@@ -78,7 +76,7 @@ namespace Praktika4_Bykov_Denisov
 
         private void UpdateGraph(double x0, double xk, double dx, double a, double b, double c)
         {
-            // Очищаем старые данные
+
             var series = (LineSeries)PlotModel.Series[0];
             series.Points.Clear();
 
