@@ -35,14 +35,14 @@ a = { (f(x) + y)² - √(f(x)·y), xy > 0
 { (f(x) + y)² + √|f(x)·y|, xy < 0
 { (f(x) + y)² + 1, xy = 0
 **Скриншот функции:**
-![Формула 2](Praktika4_Bykov_Denisov/моя_функция_2.png)
+![Формула 2](Praktika4_Bykov_Denisov/моя_функция_1.png)
 
 ### Страница 3: Циклические вычисления с графиком
 
 **Функция:**
 y = (10⁻²·b·c)/x + cos(√(a³·x))
 **Скриншот функции:**
-![Формула 3](Praktika4_Bykov_Denisov/моя_функция_3.png)
+![Формула 3](Praktika4_Bykov_Denisov/моя_функция_1.png)
 
 ## Стек технологий
 
@@ -78,3 +78,4 @@ Praktika4_Bykov_Denisov/
 ## Ссылка на репозиторий
 
 [GITHUB](https://github.com/DEONIGI197/PR4-Bykov-Denisvov-ISIP323)
+
