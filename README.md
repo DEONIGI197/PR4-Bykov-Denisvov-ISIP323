@@ -35,7 +35,7 @@ a = { (f(x) + y)² - √(f(x)·y), xy > 0
 { (f(x) + y)² + √|f(x)·y|, xy < 0
 { (f(x) + y)² + 1, xy = 0
 **Скриншот функции:**
-![Формула 2](Praktika4_Bykov_Denisov/моя_функция_1.png)
+![Формула 2](Praktika4_Bykov_Denisov/моя_функция_2.png)
 
 ### Страница 3: Циклические вычисления с графиком
 
@@ -78,4 +78,5 @@ Praktika4_Bykov_Denisov/
 ## Ссылка на репозиторий
 
 [GITHUB](https://github.com/DEONIGI197/PR4-Bykov-Denisvov-ISIP323)
+
 
