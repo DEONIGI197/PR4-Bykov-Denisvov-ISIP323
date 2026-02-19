@@ -140,10 +140,8 @@
     <Resource Include="моя_функция_1.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="моя функция_2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="моя функция_3.png" />
+    <Resource Include="моя_функция_2.png" />
+    <Resource Include="моя_функция_3.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Microsoft.NETFramework.ReferenceAssemblies.net472.1.0.2\build\Microsoft.NETFramework.ReferenceAssemblies.net472.targets" Condition="Exists('..\packages\Microsoft.NETFramework.ReferenceAssemblies.net472.1.0.2\build\Microsoft.NETFramework.ReferenceAssemblies.net472.targets')" />
