@@ -16,7 +16,7 @@
                        Margin="0,0,0,20"/>
 
             <!-- МЕСТО ДЛЯ ТВОЕГО СКРИНШОТА -->
-            <Image Source="/моя функция_2.png" 
+            <Image Source="/моя_функция_2.png" 
 Height="130" 
 Margin="0,0,0,25"
 Stretch="Uniform"
