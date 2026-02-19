@@ -8,15 +8,13 @@
     <ScrollViewer VerticalScrollBarVisibility="Auto">
         <StackPanel Margin="25">
 
-            <!-- Заголовок -->
             <TextBlock Text="Задание 3" 
                        FontSize="28" 
                        FontWeight="SemiBold"
                        Foreground="#2D2D2D"
                        Margin="0,0,0,20"/>
 
-            <!-- МЕСТО ДЛЯ ТВОЕГО СКРИНШОТА -->
-            <Image Source="/моя_функция_2.png" 
+            <Image Source="/моя_функция_3.png" 
 Height="130" 
 Margin="0,0,0,25"
 Stretch="Uniform"
@@ -64,7 +62,6 @@ HorizontalAlignment="Left"/>
                 </Grid>
             </Border>
 
-            <!-- Кнопки -->
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="0,0,0,20">
                 <Button Content="Вычислить" 
                         Width="110" Height="40"
@@ -86,7 +83,6 @@ HorizontalAlignment="Left"/>
                         Click="Button_Clear3"/>
             </StackPanel>
 
-            <!-- Результаты (многострочный TextBox) -->
             <Border Background="#F8F8F8" 
                     Padding="20" 
                     Margin="0,0,0,20"
@@ -110,7 +106,6 @@ HorizontalAlignment="Left"/>
                 </StackPanel>
             </Border>
 
-            <!-- OxyPlot график -->
             <Border Background="#F8F8F8" 
                     Padding="20"
                     BorderBrush="#E0E0E0"
